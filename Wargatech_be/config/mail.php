@@ -63,7 +63,6 @@ return [
 
         'resend' => [
             'transport' => 'resend',
-            'key' => env('re_VmKpczqo_2Rs7AnFxWQNgAZjZTKnZL6Bv'),
         ],
 
         'sendmail' => [
