@@ -326,7 +326,8 @@ Pastikan Anda telah menginstall:
 - **npm**
 - **PostgreSQL** (v18.x atau lebih tinggi)
 - **Composer** (v2.5^ keatas)
-- **PHP** (8.3^ keatas)
+- **PHP** (v8.3^ keatas)
+- **Python** (v3.10^ keatas)
 - **Git**
 
 ### Langkah Instalasi
@@ -455,6 +456,32 @@ npm run dev  #Server akan berjalan di http://localhost:5173
 
 ```
 
+#### Python
+
+##### 1. Clone repository dari github
+
+```Terminal/CMD
+git clone https://github.com/mfnteam/SampahinAja
+cd SampahinAja
+
+```
+
+#### 2. Install library
+
+```Terminal/CMD
+pip install fastapi "uvicorn[standard]" python-multipart pillow tensorflow numpy
+uvicorn app:app --reload
+
+```
+
+#### 3. Jalankan python
+
+```Terminal/CMD
+python app.py                   #AI anda akan berjalan di http://localhost:5000
+python3 app.py (untuk linux)
+
+```
+
 ---
 
 ## 🚀 Penggunaan
@@ -480,6 +507,14 @@ npm run start
 
 ##test mode
 npm run test
+
+--------------------------
+
+#python AI
+cd SampahinAja
+python app.py
+
+python3 app.py (untuk linux)
 
 ```
 
@@ -535,8 +570,8 @@ Password: admin123
 
 ```
 
-Local: http://localhost:8000/api
-Production: https://api.wargatech.my.id
+Local: http://localhost:8000/
+Production: https://api.wargatech.my.id/
 
 ```
 
@@ -548,6 +583,11 @@ Development: http://localhost:5173/
 Production: https://wargatech.my.id
 
 ```
+
+#### Python
+
+Local: http://localhost:5000/
+Production: https://sampahinaja-production.up.railway.app
 
 ### Endpoints
 
@@ -633,6 +673,13 @@ POST      api/profile/delete-photo
 POST      api/profile/photo-profile
 POST      api/profile/verify-code
 
+
+```
+
+#### Special Endpoint (Arctifical Intelligence)
+
+```http
+POST      http://0.0.0.0:5000
 
 ```
 
