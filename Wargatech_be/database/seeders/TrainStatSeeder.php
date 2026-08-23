@@ -283,6 +283,30 @@ class TrainStatSeeder extends Seeder
             ],
         ];
 
+        foreach($redline as $st) {
+            TrainStation::create([
+                'name' => $st['name']
+            ]);
+        }
+
+        foreach($blueline as $st) {
+            TrainStation::create([
+                'name' => $st['name']
+            ]);
+        }
+
+        foreach($greenline as $st) {
+            TrainStation::create([
+                'name' => $st['name']
+            ]);
+        }
+
+        foreach($brownline as $st) {
+            TrainStation::create([
+                'name' => $st['name']
+            ]);
+        }
+
         foreach($purpleline as $st) {
             TrainStation::create([
                 'name' => $st['name']
