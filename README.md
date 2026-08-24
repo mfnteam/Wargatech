@@ -679,7 +679,7 @@ POST      api/profile/verify-code
 #### Special Endpoint (Arctifical Intelligence)
 
 ```http
-POST      http://0.0.0.0:5000
+POST      http://0.0.0.0:5000/predict
 
 ```
 
