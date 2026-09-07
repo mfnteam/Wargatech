@@ -196,24 +196,24 @@ Monitoring   : Cloudflare
 
 ### Alasan Pemilihan Teknologi
 
-| Teknologi  | Alasan Pemilihan                                                            |
-| ---------- | --------------------------------------------------------------------------- |
-| Laravel    | Laravel merupakan framework multifungsi yang paling mudah dipelajari dan    |
-|            | banyak digunakan oleh para developer saat mengembangkan website terutama    |
-|            | untuk REST API. Dengan penggunaan validator hingga Mailing yang mudah       |
-|            | menjadikan Laravel adalah framework backend yang kami gunakan.              |
-|            |                                                                             |
-| React      | React adalah framework frontend yang mudah dipelajari oleh developer        |
-|            | frontend pemula. React juga memiliki banyak library serbaguna untuk me-     |
-|            | tampilan dan performa website kamu. Kemudahan syntax yang digunakan juga    |
-|            | menjadikan salah satu alasan penggunaan framework ini.                      |
-|            |                                                                             |
-| PostgreSQL | PostgreSQL adalah database yang terlihat seperti MySQL, seperti syntaxnya   |
-|            | yang sangat mirip dengan MySQL. Namun Postgre memiliki kualitas yang jauh   |
-|            | lebih baik daripada MySQL itu sendiri, cara melakukan query yang lebih baik |
-|            | membuat PostgreSQL ini merupakan salah satu database yang kami gunakan      |
-|            | untuk meningkatkan pengalaman pengguna dalam mengirim suatu query dengan    |
-|            | cepat dan efisien.                                                          |
+| Teknologi  | Alasan Pemilihan                                                                 |
+| ---------- | -------------------------------------------------------------------------------- |
+| Laravel    | Laravel merupakan framework multifungsi yang paling mudah dipelajari dan         |
+|            | banyak digunakan oleh para developer saat mengembangkan website terutama         |
+|            | untuk REST API. Dengan penggunaan validator hingga Mailing yang mudah            |
+|            | menjadikan Laravel adalah framework backend yang kami gunakan.                   |
+|            |                                                                                  |
+| React      | React adalah framework frontend yang mudah dipelajari oleh developer             |
+|            | frontend pemula. React juga memiliki banyak library serbaguna untuk meningkatkan |
+|            | tampilan dan performa website kamu. Kemudahan syntax yang digunakan juga         |
+|            | menjadikan salah satu alasan penggunaan framework ini.                           |
+|            |                                                                                  |
+| PostgreSQL | PostgreSQL adalah database yang terlihat seperti MySQL, seperti syntaxnya        |
+|            | yang sangat mirip dengan MySQL. Namun Postgre memiliki kualitas yang jauh        |
+|            | lebih baik daripada MySQL itu sendiri, cara melakukan query yang lebih baik      |
+|            | membuat PostgreSQL ini merupakan salah satu database yang kami gunakan           |
+|            | untuk meningkatkan pengalaman pengguna dalam mengirim suatu query dengan         |
+|            | cepat dan efisien.                                                               |
 
 ### Dependencies Utama
 
