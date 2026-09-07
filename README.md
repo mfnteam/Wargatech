@@ -223,6 +223,7 @@ Monitoring   : Cloudflare
         "@tailwindcss/vite": "^4.3.3",
         "axios": "^1.19.0",
         "bootstrap": "^5.3.8",
+        "framer-motion": "^13.2.0",
         "lucide-react": "^1.31.0",
         "react": "^19.2.8",
         "react-dom": "^19.2.8",
